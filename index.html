@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ludo Board Game</title>
+    <link rel="stylesheet" href="Ludo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="head"><img id="head" src="pngwing.com.png">LUDO<img id="head" src="pngwing.com.png"></div>
+    <div class="parent">
+        <div id="playera">Player A</div>
+        <div class="board">
+            <div class="container">
+                <div class="box" id="Item-1"><img class="token" onclick="move()" id="tokena2" src="TokenA.png"><img class="token" onclick="move()" id="tokena2" src="TokenA.png"></div>
+                <div class="box" id="Item-2"></div>
+                <div class="box" id="Item-3"></div>
+                <div class="box" id="Item-4"></div>
+                <div class="box" id="Item-5"></div>
+                <div class="box" id="Item-6"></div>
+                <div class="box" id="Item-7"></div>
+                <div class="box" id="Item-8"></div>
+                <div class="box" id="Item-9"></div>
+                <div class="box" id="Item-10"></div>
+                <div class="box" id="Item-11"></div>
+                <div class="box" id="Item-12"></div>
+                <div class="box" id="Item-13"></div>
+                <div class="box" id="Item-14"></div>
+                <div class="box" id="Item-15"><img id="tokenb1" class="token" onclick="move()" src="TokenB.png"><img id="tokenb2" onclick="move()" class="token" src="TokenB.png"></div>
+                <div class="box" id="Item-16"></div>
+                <div class="box" id="Item-17"></div>
+                <div class="box" id="Item-18"></div>
+                <div class="box" id="Item-19"></div>
+                <div class="box" id="Item-20"></div>
+                <div class="box" id="Item-21"></div>
+                <div class="box" id="Item-22"></div>
+                <div class="box" id="Item-23"></div>
+                <div class="box" id="Item-24"></div>
+                <div class="box" id="Item-25"></div>
+                <div class="box" id="Item-26"></div>
+                <div class="box" id="Item-27"></div>
+                <div class="box" id="Item-28"></div>
+                <div class="box" id="Turn">Player A starts!</div>
+                <div class="box" id="Roll"><button id="btn" onclick="anim()">ROLL!</button></div>
+                <div class="box" id="Dice"><img src="1.png" id="img"></div>
+            </div>
+            <div id="playerb">Player B</div>
+        </div>
+    </div>
+    <script src="Ludo.js"></script>
+</body>
